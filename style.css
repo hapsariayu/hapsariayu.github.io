@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000000;
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    background-position: center;
+    font-family: sans-serif;
+    
+}
+h2 {
+    font-family: 'Secular One', sans-serif;
+    display: block;
+    font-size: 2em;
+    margin-top: 10px;
+    margin-bottom: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    color: #ffff;
+    font-weight: bold;
+}
+
+.wrap {
+    display: flex;
+   float: right;
+}
+.navi {
+    display: flex;
+    justify-content: center;
+    align-items: 15px;
+}
+.navi>li {
+    list-style-type: none;
+    padding: 15px;
+}
+.navi>li>a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+#style2{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.39);
+}
+
+#style2 input[type=button] {
+    padding: 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    border: none;
+}
+.navi>li>a:hover {
+    color: crimson;
+    transition: all .6s ease-in-out
+}
