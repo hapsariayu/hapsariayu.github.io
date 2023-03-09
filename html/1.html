@@ -18,7 +18,7 @@
         <div class="container-1">
             <nav class="wrap">
                 <div class="brand">
-                    <div><a>RBB</a></div>
+                    <div><a class="button" href="../index.html">RBB</a></div>
                 </div>
                 <ul class=" navi">
                     <li><a href="1.html" class="active">Order</a></li>
@@ -33,20 +33,41 @@
         <div class="mx-auto" style="width: 650px; padding: 30px;">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="text-center mb-4"">Order ticket</h3>
+
+                    <h3 class="text-center mb-4">Order ticket</h3>
                     <ul class="list-group">
+                        <!-- <div style="margin-bottom: 10px">
+                        <div style="margin-left: 10px;">
+                            <tr style="margin-left: 10px;">
+                                <td><label>NAMA</label></td>
+                                <td>: <input type="text" id="inp_nama" name=""></td>
+                            </tr>
+                        </div>
+                            <div style="margin-left: 10px;">
+                                <tr>
+                                    <td><label>EMAIL</label></td>
+                                    <td>: <input type="text" id="inp_nama" name=""></td>
+                                </tr>
+                            </div>
+                            <div style="margin-left: 10px; margin-bottom: 10px;">
+                                <tr>
+                                    <td><label>NO HP</label></td>
+                                    <td>: <input type="text" id="inp_nama" name=""></td>
+                                </tr>
+                            </div>
+                        </div> -->
                         <div id="item">
-                            <li type= "button" id="btn1" class="list-group-item"> <span id="txt1">vvip qty:</span> 
-                                <h5 >Rp <span id="cost1">2250000</span></h5>
+                            <li type="button" id="btn1" class="list-group-item"> <span id="txt1">vvip</span>
+                                <h5>Rp <span id="cost1">2250000</span></h5>
                             </li>
                         </div>
                         <div id="item">
-                            <li type= "button" class="list-group-item">vip
+                            <li type="button" id="btn2" class="list-group-item"> <span id="txt2">vip</span>
                                 <h5>Rp <span id="cost2">1500000</span></h5>
                             </li>
                         </div>
                         <div id="item">
-                            <li type= "button" class="list-group-item">Regular
+                            <li type="button" id="btn3" class="list-group-item"> <span id="txt3">Regular</span>
                                 <h5>Rp <span id="cost3">750000</span></h5>
                             </li>
                         </div>
@@ -55,39 +76,60 @@
                     <h3 class="text-center mb-4">Merch</h3>
                     <ul class="list-group">
                         <div id="item">
-                            <li type= "button" class="list-group-item">toteRRBag
+                            <li type="button" id="btn4" class="list-group-item"><span id="txt4">toteRRBag</span> 
                                 <h5>Rp <span id="cost4">250000</span></h5>
                             </li>
                         </div>
                         <div id="item">
-                            <li type= "button" class="list-group-item">posteRRB
+                            <li type="button" id="btn5" class="list-group-item"><span id="txt5">posteRRB</span> 
                                 <h5>Rp <span id="cost5">50000</span></h5>
                             </li>
                         </div>
                         <div id="item">
-                            <li type= "button" class="list-group-item">RRB-shirt
+                            <li type="button" id="btn6" class="list-group-item"><span id="txt6">RRB-shirt</span> 
                                 <h5>Rp <span id="cost6">500000</span></h5>
                             </li>
                         </div>
                         <div id="item">
-                            <li type= "button" class="list-group-item">RRBr-band
+                            <li type="button" id="btn7" class="list-group-item"> <span id="txt7">RRBr-band</span>
                                 <h5>Rp <span id="cost7">50000</span></h5>
                             </li>
                         </div>
                     </ul>
                     <hr>
                     <div class="total">
-                        <h5 id="hasiltotal">total : Rp 0</h5>
+                        <h5 >total : Rp <span id="hasiltotal">0</span></h5>
                     </div>
-                    <button id="myBtn">order</button>
+                    <button id="myBtn" onclick="order()">order</button>
                     <div id="myModal" class="modal">
                         <div class="model-content">
                             <span class="close">&times;</span>
-                            <input type="text">
-                            <input type="email" value="email" name="" id="">
-
+                            <div>
+                                <div>
+                                    <tr>
+                                        <td><label>NAME</label></td>
+                                        <td>: <input type="text" id="inp_nama" name=""></td>
+                                    </tr>
+                                </div>
+                                    <div>
+                                        <tr>
+                                            <td><label>EMAIL</label></td>
+                                            <td>: <input type="text" id="inp_nama" name=""></td>
+                                        </tr>
+                                    </div>
+                                    <div>
+                                        <tr>
+                                            <td><label>CONTACT</label></td>
+                                            <td>: <input type="text" id="inp_nama" name=""></td>
+                                        </tr>
+                                    </div>
+                                </div>
                         </div>
                     </div>
+                    <div>
+                        <button id="uBtn" onclick="clear()">clear</button>
+                    </div>
+
                 </div>
             </div>
         </div>

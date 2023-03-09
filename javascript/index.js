@@ -21,27 +21,7 @@ const countdownInterval = setInterval(() => {
 }, 1000);
 
 
-let cost = document.getElementById('cost')
-// function denotateNum(num){
-//   let stringNum = num.toString()
-//     let temp = ""
-//     let temp2 = ""
-//     let penanda = 0
-//     for (let i = stringNum.length - 1; i >= 0; i--) {
-//         if (penanda % 3 === 0 && penanda !== 0) {
-//             temp += "."
-//             penanda = 0
-//         }
-//         temp += stringNum[i]
-//         penanda ++
-//     }
-//     for (let i = temp.length - 1; i >= 0; i--) {
-//         temp2 += temp[i]
-        
-//     }
-//     return `${temp2},00`
-// }
-// console.log(denotateNum(cost.value));
+
 //Line ini sampai ke bawah, di abaikan dulu ya, ini masih drafting buat bikin fungsi CRUD nya hehehe (ayu)
 /*
 Taylor Swift
