@@ -1,5 +1,5 @@
 console.log("test")
-const countdownDate = new Date("March 10, 2023 09:00:00").getTime();
+const countdownDate = new Date("March 10, 2023 16:00:00").getTime();
 
 const countdownInterval = setInterval(() => {
   const now = new Date().getTime();
@@ -30,14 +30,14 @@ Kyary Pamyu Pamyu
 Isyana Sarasvati
 Raisa
 */
-let name = document.getElementById('');
-let email = document.getElementById('');
-let guestStar = document.getElementById('');
-let totalTicket = document.getElementById('');
+// let name = document.getElementById('');
+// let email = document.getElementById('');
+// let guestStar = document.getElementById('');
+// let totalTicket = document.getElementById('');
 
-function getOrder() {
-  const pricing = {'Taylor Swift': 1500000, 'IU': 1250000, }
-  const dataBase = [];
-  let id = (dataBase.length - 1) + 1
+// function getOrder() {
+//   const pricing = {'Taylor Swift': 1500000, 'IU': 1250000, }
+//   const dataBase = [];
+//   let id = (dataBase.length - 1) + 1
 
-}
+// }
